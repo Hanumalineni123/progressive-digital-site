@@ -785,13 +785,13 @@
     };
 
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('https://progressive-digital-api-production.up.railway.app/api/contact' {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'X-Idempotency-Key': IDEMPOTENCY_KEY,
         },
-        body: JSON.stringify(payload),
+        body: JSON.stringify(payload),fetch('https://progressive-digital-api-production.up.railway.app/api/checkout'
       });
 
       const data = await res.json();
