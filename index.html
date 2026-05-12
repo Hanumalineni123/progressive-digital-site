@@ -791,7 +791,7 @@
           'Content-Type': 'application/json',
           'X-Idempotency-Key': IDEMPOTENCY_KEY,
         },
-        body: JSON.stringify(payload),fetch('https://progressive-digital-api-production.up.railway.app/api/checkout'
+      body: JSON.stringify(payload),
       });
 
       const data = await res.json();
